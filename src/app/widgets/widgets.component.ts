@@ -25,8 +25,8 @@ export class WidgetsComponent implements OnInit {
       });
   }
 
-  // diffFeaturedWidgets handles the case where one widget is set as featured-item in the database,
-  // but the user browses to another featured-item widget manually using the URL bar
+  // diffFeaturedWidgets handles the case where one widget is set as featured in the database,
+  // but the user browses to another featured widget manually using the URL bar
   diffFeaturedWidgets(widgets: Widget[]) {
     const supposedlyFeaturedID = this.route.snapshot.firstChild.params['id'];
 
