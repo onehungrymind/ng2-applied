@@ -1,4 +1,4 @@
-# ng2-rest-app
+# ng2-applied
 
 A REST-ful master-detail application built using Angular 2 and angular-cli.
 
@@ -7,13 +7,13 @@ A REST-ful master-detail application built using Angular 2 and angular-cli.
 
 ### Getting Started
 
-There are two main parts to this application. The first is the REST API, for which we are using `json-server`. The second part is the Angular 2 application server which we will start using `ng serve`.  
+There are two main parts to this application. The first is the REST API, for which we are using `json-server`. The second part is the Angular 2 application server which we will start using `npm start` (which in turn calls `ng serve`).  
 
 To get started run the commands below.
 
 ```bash
-$ git clone https://github.com/onehungrymind/ng2-rest-app.git
-$ cd ng2-rest-app
+$ git clone https://github.com/onehungrymind/ng2-applied.git
+$ cd ng2-applied
 $ npm install
 $ npm start
 ```
