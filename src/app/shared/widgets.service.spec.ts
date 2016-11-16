@@ -7,7 +7,7 @@ import { WidgetsService } from './widgets.service';
 
 class HttpStub {}
 
-describe('Service: Items', () => {
+describe('Service: Widgets', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
       providers: [
