@@ -9,7 +9,7 @@ import { RouterOutletStubComponent, RouterStub, ActivatedRouteStub } from '../te
 let comp: WidgetsComponent;
 let fixture: ComponentFixture<WidgetsComponent>;
 
-describe('Component: Items', () => {
+describe('Component: Widgets', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
       declarations: [

@@ -1,24 +1,24 @@
 {
-  "items": [
+  "widgets": [
     {
       "id": 1,
       "img": "number-1.png",
-      "name": "Item 1",
+      "name": "Widget 1",
       "description": "This is a description",
-      "featured": true
+      "featured": false
     },
     {
       "id": 2,
       "img": "number-2-blue-icon.png",
-      "name": "Item 2",
+      "name": "Widget 2",
       "description": "This is a description!",
-      "featured": false
+      "featured": true
     },
     {
       "id": 3,
       "img": "number-3-icon.png",
-      "name": "Item 3",
-      "description": "This is a lovely item",
+      "name": "Widget 3",
+      "description": "This is a lovely widget",
       "featured": false
     }
   ]
