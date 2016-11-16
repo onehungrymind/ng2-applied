@@ -1,6 +1,6 @@
 import { Ng2RestAppPage } from './app.po';
 
-describe('ng2-rest-app App', function() {
+describe('ng2-applied App', function() {
   let page: Ng2RestAppPage;
 
   beforeEach(() => {
