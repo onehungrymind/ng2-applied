@@ -2,18 +2,21 @@
   "widgets": [
     {
       "id": 1,
+      "img": "boxer.png",
       "name": "Widget 1",
       "description": "This is a description",
-      "featured": true
+      "featured": false
     },
     {
       "id": 2,
+      "img": "dachshund.png",
       "name": "Widget 2",
       "description": "This is a description!",
       "featured": true
     },
     {
       "id": 3,
+      "img": "hound.png",
       "name": "Widget 3",
       "description": "This is a lovely widget",
       "featured": false
