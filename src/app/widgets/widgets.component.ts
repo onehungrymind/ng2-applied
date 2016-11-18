@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Widget, widgets } from '../shared';
 
 @Component({
@@ -6,9 +6,11 @@ import { Widget, widgets } from '../shared';
   templateUrl: './widgets.component.html',
   styleUrls: ['./widgets.component.css']
 })
-export class WidgetsComponent {
+export class WidgetsComponent implements OnInit {
   widgets: Array<Widget> = widgets;
 
   constructor() {}
+
+  ngOnInit() {}
 }
 
