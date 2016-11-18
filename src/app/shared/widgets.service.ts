@@ -8,7 +8,7 @@ export class WidgetsService {
   constructor() {}
 
   loadWidgets() {
-    return [...this.widgets];
+    return this.widgets;
   }
 
   loadWidget(id) {
@@ -28,7 +28,6 @@ export class WidgetsService {
     this.widgets = this.widgets.map(w => {
       return w.id === widget.id ? widget : w;
     });
-
     return widget;
   }
 

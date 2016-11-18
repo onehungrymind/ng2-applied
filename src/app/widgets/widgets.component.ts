@@ -29,12 +29,11 @@ export class WidgetsComponent implements OnInit {
 
   deleteWidget(widget: Widget) {
     this.widgetsService.deleteWidget(widget);
-    this.widgets.splice(this.widgets.indexOf(widget), 1);
-
+    // Refresh the widgets collection
+    this.widgets = this.widgetsService.loadWidgets();
     // Generally, we would want to wait for the result of `widgetsService.deleteWidget`
     // before resetting the current widget.
     this.resetWidget();
   }
-
 }
 
